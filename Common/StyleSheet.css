@@ -1,0 +1,79 @@
+﻿body
+{
+	margin: 0px;
+	direction:rtl;
+	font-family:ALKATIP Tor, UKIJ Tuz Tom, UKK TZK2;
+    text-align: center;
+}
+
+
+ .TableHeader
+        {
+            width: 100%;
+            height: 135px;
+        }
+        
+.TableHeaderMiddle
+        {
+            width: 945px;
+            height: 95px;
+        }
+        
+.BodyTable
+        {
+            width: 100%;
+        }
+        
+.ItemTable
+{
+	 width:80%;
+	}
+
+.ItemDescraption
+{
+ font-size:small;
+text-align: justify;	
+	}
+	
+.ItemTitle
+{
+	 font-size:medium;
+text-align: right;
+	}
+	
+.HorzentalLineHeader
+{
+	 color:#D5DDF3;
+ text-align:center;
+	}
+	
+.HorzentalLineLinks
+{
+	 color:#D5DDF3;
+ width:30%;
+ text-align:right;
+	}
+input,select,button
+{
+		direction:rtl;
+	font-family:ALKATIP Tor, UKIJ Tuz Tom, UKK TZK2;
+
+}
+
+.TextBox
+{
+	direction:rtl;
+	font-family:ALKATIP Tor, UKIJ Tuz Tom, UKK TZK2;
+	}
+
+.ChineseText
+{
+	 direction:ltr;
+	 font-family:宋体;
+	}
+	
+.AlignLeft
+{
+	 text-align:left;
+	 direction:ltr;
+	}

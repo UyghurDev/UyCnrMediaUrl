@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Public.master.cs" Inherits="Common_Public" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<asp:ContentPlaceHolder ID="cpheader" runat="server">
+</asp:ContentPlaceHolder>
+
+    <title>Untitled Page</title>
+
+    <link href="../Common/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+       
+
+       
+
+       
+
+       
+        .style1
+        {
+            font-size: small;
+        }
+       
+
+       
+
+       
+
+       
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <table align="center" style="width:945px;" cellpadding="0" cellspacing="0" dir="rtl">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="TableHeader">
+                    <tr>
+                        <td height="20" bgcolor="#D5DDF3" align="left">
+                            <asp:Label ID="lblCurrentDate" runat="server"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="95">
+                            <table cellpadding="0" cellspacing="0" class="TableHeaderMiddle">
+                                <tr>
+                                    <td width="125"><a href="../Default.aspx">
+                                        <img alt="UyghurDev.net lab" src="common/images/lab_icon.jpg"  
+                                            style="width: 125px; height: 95px; border-width:0px;" /></a></td>
+                                    <td >
+                                        ئۇيغۇر يۇمشاق دېتال ئىجادىيەت تورى تەجىربىخانىسى<br />
+                                        <br />
+                                        Uyghur Software Developer Network Laboratory</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" bgcolor="#D5DDF3">
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="#D5DDF3">
+                ئۇيغۇر يۇمشاق دېتال ئىجادىيەت تورى تەجرىبىخانىسى<br />
+                Uyghur Software Developer Network Laboratory<br />
+                <span class="style1">Web site:</span><a href="http://www.UyghurDev.net"><span 
+                    class="style1">www.UyghurDev.net</span></a><span class="style1">&nbsp;&nbsp;&nbsp; 
+                Email:
+                UyghurDev@Gmail.com
+                </span>
+                </td>
+        </tr>
+    </table>
+    
+    </form>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-274129-3");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
